@@ -1,5 +1,12 @@
 class Translation(object):
-    START_TEXT = """Hey! This is a simple Telegram All-In-One Bot that has so many function. Click /help button to Know How To Use Me.\n Made with ❤ By @TeleRoidGroup"""
+    START_TEXT = """👋 Hᴇʟʟᴏ , {}
+
+Tʜɪꜱ ɪꜱ Pᴏᴡᴇʀꜰᴜʟ AɴʏDLBᴏᴛ ᴛʜᴀᴛ sᴜᴘᴘᴏʀᴛ Mᴀɴʏ fᴜɴᴄᴛɪᴏɴs.. 
+
+Pʀᴇꜱꜱ Hᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ Iɴꜰᴏ...
+
+Pᴏᴡᴇʀᴇᴅ ʙʏ : {}
+"""
     RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.\nAsk In [Support Group](https://t.me/TeleRoid14)</b>"
     ABS_TEXT = " <b>Please Don't Be Selfish.</b>"
     UPGRADE_TEXT = "<b>This Bot Is Free To Use If U R My  Friend......\n\n@TheTeleRoid</b>"
