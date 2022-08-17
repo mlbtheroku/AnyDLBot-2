@@ -5,7 +5,7 @@ Tʜɪꜱ ɪꜱ Pᴏᴡᴇʀꜰᴜʟ AɴʏDLBᴏᴛ ᴛʜᴀᴛ sᴜᴘᴘᴏʀ�
 
 Pʀᴇꜱꜱ Hᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ Iɴꜰᴏ...
 
-Pᴏᴡᴇʀᴇᴅ ʙʏ : {}
+Pᴏᴡᴇʀᴇᴅ ʙʏ : [𝙏𝙚𝙡𝙚𝙍𝙤𝙞𝙙 𝙂𝙧𝙤𝙪𝙥](t.me/TeleRoidGroup)
 """
     RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.\nAsk In [Support Group](https://t.me/TeleRoid14)</b>"
     ABS_TEXT = " <b>Please Don't Be Selfish.</b>"
@@ -48,10 +48,9 @@ URL | filename | username | password</b>"""
 
 ☞  <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
 
-☞  <b>Get High Speed Direct Download Link Of Any Telegram File.\nReply /getlink To File</b>
------------------------------
+☞  Gᴇᴛ Hɪɢʜ Sᴘᴇᴇᴅ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Oғ Aɴʏ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇ.\n Rᴇᴘʟʏ /getlink Tᴏ Fɪʟᴇ. 
 
-Send /me To Know Your Current Plan Details"""
+Sᴇɴᴅ /me Tᴏ Kɴᴏᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Pʟᴀɴ Dᴇᴛᴀɪʟs"""
     REPLY_TO_DOC_GET_LINK = "<b>Reply to a Telegram media to get High Speed Direct Download Link.</b>"
     REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.\n@TheTeleRoid</b>"
     REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.\n@TheTeleRoid</b>"
