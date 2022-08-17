@@ -40,13 +40,15 @@ URL | filename | username | password</b>"""
 
 😎If You need Private Bot Please Ch3ck @PayForBotz.
 -----------------------------"""
-    HELP_USER = """<b>There Are Multiple Things I Can Do:</b>\n\n <b>All Supported Video Formats of [YTDLp]</b>
+    HELP_USER = """Tʜᴇʀᴇ Aʀᴇ Mᴜʟᴛɪᴘʟᴇ Tʜɪɴɢs I Cᴀɴ Dᴏ :)
 
-☞  <b>Upload as file from any Direct link</b>
+☞  Uʀʟ Uᴘʟᴏᴀᴅᴇʀ Wɪᴛʜ YTDLᴘ Sᴜᴘᴘᴏʀᴛ Dɪʀᴇᴄᴛ ʟɪɴᴋ. 
 
-☞  <b>Convert To Video of TG Media.\nReply /converttovideo to Any Media</b>
+☞  Uᴘʟᴏᴀᴅ As ғɪʟᴇ ғʀᴏᴍ ᴀɴʏ Dɪʀᴇᴄᴛ ʟɪɴᴋ. 
 
-☞  <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
+☞  Cᴏɴᴠᴇʀᴛ Tᴏ Vɪᴅᴇᴏ ᴏғ Tᴇʟᴇɢʀᴀᴍ Mᴇᴅɪᴀ. Rᴇᴘʟʏ /converttovideo ᴛᴏ Vɪᴅᴇᴏ. 
+
+☞  Rᴇɴᴀᴍᴇ Mᴇᴅɪᴀ ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ. Jᴜsᴛ Rᴇᴘʟʏ /rename Tᴏ Mᴇᴅɪᴀ.
 
 ☞  Gᴇᴛ Hɪɢʜ Sᴘᴇᴇᴅ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Oғ Aɴʏ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇ.\n Rᴇᴘʟʏ /getlink Tᴏ Fɪʟᴇ. 
 
@@ -54,7 +56,7 @@ Sᴇɴᴅ /me Tᴏ Kɴᴏᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Pʟᴀɴ Dᴇᴛᴀɪʟs
     REPLY_TO_DOC_GET_LINK = "<b>Reply to a Telegram media to get High Speed Direct Download Link.</b>"
     REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.\n@TheTeleRoid</b>"
     REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.\n@TheTeleRoid</b>"
-    SOURCE = """<b>Hello! You Want to Know More About Me</b>
+    SOURCE = """<b>Hello! You Want to Know More 8 Me</b>
 
 <b>🤖 My Name : <i>TeleRoid AnyDLBot</i></b>
 
