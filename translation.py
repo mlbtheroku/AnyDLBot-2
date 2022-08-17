@@ -30,15 +30,17 @@ URL | filename | username | password</b>"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "<b>No Custom ThumbNail Found .</b>"
     NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/TeleRoid14"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
+    CURENT_PLAN_DETAILS = """Hᴇʏ! {} Yᴏᴜʀ Cᴜʀʀᴇɴᴛ ᴘʟᴀɴ ᴅᴇᴛᴀɪʟs :) 
+
 -----------------------------
-👤Telegram ID: <code>{}</code>
 
-📝Plan name: 75GB Per Month
+👤 Tᴇʟᴇɢʀᴀᴍ ID : <code>{}</code>
 
-🚸Expires on: 10/12/2021
+📝 Pʟᴀɴ ɴᴀᴍᴇ : 𝟽𝟻GB Pᴇʀ Mᴏɴᴛʜ
 
-😎If You need Private Bot Please Ch3ck @PayForBotz.
+🚸 Exᴘɪʀᴇs ᴏɴ : 𝟷𝟶/𝟷𝟸/𝟸𝟶𝟸𝟸
+
+😎 Iғ Yᴏᴜ ɴᴇᴇᴅ Pʀɪᴠᴀᴛᴇ Bᴏᴛ Pʟᴇᴀsᴇ Cʜ𝟹ᴄᴋ [@PᴀʏFᴏʀBᴏᴛᴢ](t.me/PayForBotz).
 -----------------------------"""
     HELP_USER = """Tʜᴇʀᴇ Aʀᴇ Mᴜʟᴛɪᴘʟᴇ Tʜɪɴɢs I Cᴀɴ Dᴏ :)
 
