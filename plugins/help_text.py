@@ -57,9 +57,9 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Channel ⭕️", url="https://t.me/TeleRoidGroup")], [InlineKeyboardButton(text="🛑 Support 🛑", url="https://t.me/TeleRoid14"),
-                                                    InlineKeyboardButton(text="♂️ Share", url="https://telegram.me/share/url?url=https://t.me/joinchat/t1ko_FOJxhFiOThl")]]),
-    )
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='HᴇʟᴘLɪɴᴇ 💰', url='https://t.me/DonateXRobot'),
+                                                 InlineKeyboardButton(text='Cʜᴀɴɴᴇʟ ⚜', url='https://t.me/TeleRoidGroup') ],
+                                               [ InlineKeyboardButton(text='Cʟᴏsᴇ 🔏', callback_data='DM') ] ] ) )
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
@@ -105,5 +105,11 @@ async def help_user(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Join Updates Channel ⭕️", url="https://t.me/TeleRoidGroup")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⭕️", url="https://t.me/TeleRoidGroup")]]),
    )
+
+@pyrogram.Client.on_callback_query()
+async def button(bot, update):
+ 
+      if  'DM'  in update.data:
+                await update.message.delete()
