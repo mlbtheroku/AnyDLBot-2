@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Kirodewal
+# (c) PredatorHackerzZ | MrAbhi2k3
 
 # the logging things
 import logging
@@ -74,7 +74,7 @@ async def generate_screen_shot(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "© @Hx_AnyDLBot"
+                caption = "© @DonateXRobot"
                 for image in images:
                     if os.path.exists(image):
                         if i == 0:
