@@ -5,7 +5,7 @@ Tʜɪꜱ ɪꜱ Pᴏᴡᴇʀꜰᴜʟ AɴʏDLBᴏᴛ ᴛʜᴀᴛ sᴜᴘᴘᴏʀ�
 
 Pʀᴇꜱꜱ Hᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ Iɴꜰᴏ...
 
-Pᴏᴡᴇʀᴇᴅ ʙʏ : [𝙏𝙚𝙡𝙚𝙍𝙤𝙞𝙙 𝙂𝙧𝙤𝙪𝙥](t.me/TeleRoidGroup)
+Pᴏᴡᴇʀᴇᴅ ʙʏ : <a href='t.me/TeleRoidGroup'>𝙏𝙚𝙡𝙚𝙍𝙤𝙞𝙙 𝙂𝙧𝙤𝙪𝙥</a>
 """
     RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.\nAsk In [Support Group](https://t.me/TeleRoid14)</b>"
     ABS_TEXT = " <b>Please Don't Be Selfish.</b>"
@@ -31,7 +31,6 @@ URL | filename | username | password</b>"""
     NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/TeleRoid14"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Hᴇʏ! {} Yᴏᴜʀ Cᴜʀʀᴇɴᴛ ᴘʟᴀɴ ᴅᴇᴛᴀɪʟs :) 
-
 -----------------------------
 
 👤 Tᴇʟᴇɢʀᴀᴍ ID : <code>{}</code>
@@ -40,7 +39,7 @@ URL | filename | username | password</b>"""
 
 🚸 Exᴘɪʀᴇs ᴏɴ : 𝟷𝟶/𝟷𝟸/𝟸𝟶𝟸𝟸
 
-😎 Iғ Yᴏᴜ ɴᴇᴇᴅ Pʀɪᴠᴀᴛᴇ Bᴏᴛ Pʟᴇᴀsᴇ Cʜ𝟹ᴄᴋ [@PᴀʏFᴏʀBᴏᴛᴢ](t.me/PayForBotz).
+😎 Iғ Yᴏᴜ ɴᴇᴇᴅ Pʀɪᴠᴀᴛᴇ Bᴏᴛ Pʟᴇᴀsᴇ Cʜ𝟹ᴄᴋ <a href='t.me/PayForBotz'>@PᴀʏFᴏʀBᴏᴛᴢ</a>.
 -----------------------------"""
     HELP_USER = """Tʜᴇʀᴇ Aʀᴇ Mᴜʟᴛɪᴘʟᴇ Tʜɪɴɢs I Cᴀɴ Dᴏ :)
 
