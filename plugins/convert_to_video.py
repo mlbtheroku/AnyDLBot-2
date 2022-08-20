@@ -82,8 +82,6 @@ async def convert_to_video(bot, update):
             thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
             
             if not os.path.exists(thumb_image_path):
-                thumb_image_path = thumb_image_path
-            else:
                 thumb_image_path = await take_screen_shot(
                     the_real_download_location,
                     os.path.dirname(the_real_download_location),
