@@ -108,9 +108,3 @@ async def help_user(bot, update):
         reply_to_message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⭕️", url="https://t.me/TeleRoidGroup")]]),
    )
-
-@pyrogram.Client.on_callback_query()
-async def button(bot, update):
- 
-      if  'DM'  in update.data:
-                await update.message.delete()
