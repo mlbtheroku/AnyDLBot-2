@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Kirodewal
+# (c) MrAbhi2k3
 
 # the logging things
 import logging
@@ -29,6 +29,7 @@ from helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
+from database.database import *
 # https://stackoverflow.com/a/37631799/4723940
 from PIL import Image
 
@@ -54,18 +55,22 @@ async def convert_to_video(bot, update):
                 c_time
             )
         )
-        if the_real_download_location is not None:
-            await bot.edit_message_text(
-                text=Translation.SAVED_RECVD_DOC_FILE,
-                chat_id=update.chat.id,
-                message_id=a.message_id
-            )
-            # don't care about the extension
+        if the_real_download_location is not None:           
+            try:
+                await bot.edit_message_text(
+                    text=Translation.SAVED_RECVD_DOC_FILE,
+                    chat_id=update.chat.id,
+                    message_id=a.message_id
+                )
+            except:
+                pass
+            
+            #don't care about the extension
             await bot.edit_message_text(
                 text=Translation.UPLOAD_START,
                 chat_id=update.chat.id,
                 message_id=a.message_id
-            )
+                )
             logger.info(the_real_download_location)
             # get the correct width, height, and duration for videos greater than 10MB
             # ref: message from @BotSupport
@@ -76,17 +81,23 @@ async def convert_to_video(bot, update):
             if metadata.has("duration"):
                 duration = metadata.get('duration').seconds
             thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
+            
             if not os.path.exists(thumb_image_path):
-                thumb_image_path = await take_screen_shot(
-                    the_real_download_location,
-                    os.path.dirname(the_real_download_location),
-                    random.randint(
-                        0,
-                        duration - 1
-                    )
-                )
+                mes = await thumb(update.from_user.id)
+                if mes != None:
+                    m = await bot.get_messages(update.chat.id, mes.msg_id)
+                    await m.download(file_name=thumb_image_path)
+                    thumb_image_path = thumb_image_path
+                else:
+                    thumb_image_path = await take_screen_shot(
+                        the_real_download_location,
+                        os.path.dirname(the_real_download_location),
+                        random.randint(
+                            0,
+                            duration - 1
+                        )
+                    ) 
             logger.info(thumb_image_path)
-            # 'thumb_image_path' will be available now
             metadata = extractMetadata(createParser(thumb_image_path))
             if metadata.has("width"):
                 width = metadata.get("width")
@@ -103,6 +114,7 @@ async def convert_to_video(bot, update):
             img.resize((90, height))
             img.save(thumb_image_path, "JPEG")
             # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
+            
             # try to upload file
             c_time = time.time()
             await bot.send_video(
@@ -129,7 +141,7 @@ async def convert_to_video(bot, update):
             except:
                 pass
             await bot.edit_message_text(
-                text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG,
+                text="""<b>Completed Successfully 🥳🥳</b>\n\n©️ <a href="https://t.me/TeleRoidGroup">TeleRoidGroup</a>""",
                 chat_id=update.chat.id,
                 message_id=a.message_id,
                 disable_web_page_preview=True
