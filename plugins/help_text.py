@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Kirodewal
+# (c) MrAbhi2k3 | PredatorHackerzZ
 
 # the logging things
 import logging
@@ -45,9 +45,9 @@ async def get_me_info(bot, update):
         text=Translation.CURENT_PLAN_DETAILS.format(chat_id, user_id, plan_type, expires_at),
         parse_mode="html",
         disable_web_page_preview=True,
-        reply_to_message_id=update.message_id
-    )
-
+        reply_to_message_id=update.message_id,
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⭕️", url="https://t.me/TeleRoidGroup")]]),
+   )
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["start"]))
 async def start(bot, update):
@@ -58,6 +58,9 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.mention),
+        parse_mode="html",
+        disable_web_page_preview=True,
+        reply_to_message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='HᴇʟᴘLɪɴᴇ 💰', url='https://t.me/DonateXRobot'),
                                                  InlineKeyboardButton(text='Cʜᴀɴɴᴇʟ ⚜', url='https://t.me/TeleRoidGroup') ],
                                                [ InlineKeyboardButton(text='Cʟᴏsᴇ 🔏', callback_data='DM') ] ] ) )
