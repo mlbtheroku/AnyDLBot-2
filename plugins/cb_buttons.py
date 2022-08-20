@@ -44,3 +44,9 @@ async def button(bot, update):
         await youtube_dl_call_back(bot, update)
     elif "=" in cb_data:
         await ddl_call_back(bot, update)
+
+@pyrogram.Client.on_callback_query()
+async def button(bot, update):
+ 
+      if  'DM'  in update.data:
+                await update.message.delete()
