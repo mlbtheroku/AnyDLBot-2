@@ -7,7 +7,7 @@ Pʀᴇꜱꜱ Hᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ Iɴꜰᴏ...
 
 Pᴏᴡᴇʀᴇᴅ ʙʏ : <a href='t.me/TeleRoidGroup'>𝙏𝙚𝙡𝙚𝙍𝙤𝙞𝙙 𝙂𝙧𝙤𝙪𝙥</a>
 """
-    RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.\nAsk In [Support Group](https://t.me/TeleRoid14)</b>"
+    RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.\nAsk In Support Group :- @TeleRoid14</b>"
     ABS_TEXT = " <b>Please Don't Be Selfish.</b>"
     UPGRADE_TEXT = "<b>Tʜɪs Bᴏᴛ Is Fʀᴇᴇ Tᴏ Usᴇ Iғ U R Mʏ Fʀɪᴇɴᴅ......</b>"
     FORMAT_SELECTION = "<b>Select The Desired Format:</b> "
@@ -26,9 +26,9 @@ URL | filename | username | password</b>"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ <b>Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media Cleared Succesfully.</b>"
     SAVED_RECVD_DOC_FILE = "<b>Document Downloaded Successfully.</b>"
-    CUSTOM_CAPTION_UL_FILE = " <b>Bot Created By 👉**@TheTeleRoid**</b>"
+    CUSTOM_CAPTION_UL_FILE = " <b>Bot Created By @TeleRoidGroup</b>"
     NO_CUSTOM_THUMB_NAIL_FOUND = "<b>No Custom ThumbNail Found .</b>"
-    NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/TeleRoid14"
+    NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On @TeleRoid14"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Hᴇʏ! {} Yᴏᴜʀ Cᴜʀʀᴇɴᴛ ᴘʟᴀɴ ᴅᴇᴛᴀɪʟs :) 
 -----------------------------
@@ -39,7 +39,7 @@ URL | filename | username | password</b>"""
 
 🚸 Exᴘɪʀᴇs ᴏɴ : 𝟷𝟶/𝟷𝟸/𝟸𝟶𝟸𝟸
 
-😎 Iғ Yᴏᴜ ɴᴇᴇᴅ Pʀɪᴠᴀᴛᴇ Bᴏᴛ Pʟᴇᴀsᴇ Cʜ𝟹ᴄᴋ <a href='t.me/PayForBotz'>@PᴀʏFᴏʀBᴏᴛᴢ</a>.
+😎 Iғ Yᴏᴜ ɴᴇᴇᴅ Pʀɪᴠᴀᴛᴇ Bᴏᴛ Pʟᴇᴀsᴇ Cʜ𝟹ᴄᴋ <a href='https://t.me/+VRGMELnZ3NI1YjRl'>@PᴀʏFᴏʀBᴏᴛᴢ</a>.
 -----------------------------"""
     HELP_USER = """Tʜᴇʀᴇ Aʀᴇ Mᴜʟᴛɪᴘʟᴇ Tʜɪɴɢs I Cᴀɴ Dᴏ :)
 
@@ -55,13 +55,13 @@ URL | filename | username | password</b>"""
 
 Sᴇɴᴅ /me Tᴏ Kɴᴏᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Pʟᴀɴ Dᴇᴛᴀɪʟs"""
     REPLY_TO_DOC_GET_LINK = "<b>Reply to a Telegram media to get High Speed Direct Download Link.</b>"
-    REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.\n@TheTeleRoid</b>"
-    REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.\n@TheTeleRoid</b>"
-    SOURCE = """<b>Hello! You Want to Know More 8 Me</b>
+    REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.</b>"
+    REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.</b>"
+    SOURCE = """<b>Hello! You Want to Know More About Me</b>
 
 <b>🤖 My Name : <i>TeleRoid AnyDLBot</i></b>
 
-<b>👨‍💻 Creator : <a href='https://telegram.dog/TheTeleRoid'>This Person</a></b>
+<b>👨‍💻 Creator : <a href='https://t.me/+XA0ldG2SgJwzN2Vl'>This Person</a></b>
 
 <b>🧛‍♂️ Credits : Everyone In This Journey</b>
 
@@ -71,7 +71,7 @@ Sᴇɴᴅ /me Tᴏ Kɴᴏᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Pʟᴀɴ Dᴇᴛᴀɪʟs
 
 <b>🗂 Cloned From : AnyDLBot [Spechide]</b>
 
-<b>🧬 Source Code :  <a href="https://github.com/PredatorHackerzZ/AnyDLBot-2">𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲</a></b>
+<b>💰 Source Code :  <a href="https://github.com/PredatorHackerzZ/AnyDLBot-2">𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲</a></b>
 
 <b>📡 Server : <a href='https.heroku.com'>Heroku</a></b>
 
