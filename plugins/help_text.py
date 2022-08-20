@@ -46,7 +46,7 @@ async def get_me_info(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⭕️", url="https://t.me/TeleRoidGroup")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡ Cʜᴀɴɴᴇʟ ", url="https://t.me/TeleRoidGroup")]]),
    )
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["start"]))
