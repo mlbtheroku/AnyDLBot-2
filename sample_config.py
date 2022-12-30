@@ -16,7 +16,7 @@ class Config(object):
     # Telegram maximum file upload size
     MAX_FILE_SIZE = 50000000
     #ToDo Forcesubscribe to The Users to use the bot
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "fsubcc")
     TG_MAX_FILE_SIZE = 2097152000
     FREE_USER_MAX_FILE_SIZE = 50000000
     # chunk size that should be used with requests
@@ -41,7 +41,7 @@ class Config(object):
     INDEX_URL = os.environ.get("INDEX_URL", "https://m.tortoolkit.workers.dev/0:")
     parent_id = os.environ.get("GDRIVE_FOLDER_ID","")
     STRIP_FILE_NAMES = os.environ.get("STRIP_FILE_NAMES","www.1TamilMV.life - |www.1TamilMV.life -|www.1TamilMV.org - |www.1TamilMV.org -|www.1TamilMV.xyz - |www.1TamilMV.xyz -|@MoviesFlixers_DL|@TellyFun_Official|[MM].|[MM]|[MM] -|www_Telugupalaka_com|@MM_New|@MM_Links|@MM_Linkz|www.TamilRockers.ws -|@Animationmovies|HT_BEATS_|-@lubokvideo|@lubokvideo|@english_movieschannel_|@english_movieschannel|@themovies_channel_|@themovies_channel|@telugu_bluray|@TVshows_HD|[Movies Vip]|[CC].|[CC]|@CC_Links.|@CC_Links|@CC_x265.|@CC_x265|@CC.|@CC|@CC_ALL|@CPR_|@CPR|Moviez_India.|Moviez_India")
-    CHANNEL_URL = "@TeleRoidGroup\n@TeleRoid14"
+    CHANNEL_URL = "@fsubcc\n@fsubcc"
     # Sql Database url
     DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aio:aio@aio.5z4gxok.mongodb.net/?retryWrites=true&w=majority")
     
