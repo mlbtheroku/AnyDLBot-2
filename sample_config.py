@@ -16,7 +16,7 @@ class Config(object):
     # Telegram maximum file upload size
     MAX_FILE_SIZE = 50000000
     #ToDo Forcesubscribe to The Users to use the bot
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "@fsubcc")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/fsubcc")
     TG_MAX_FILE_SIZE = 2097152000
     FREE_USER_MAX_FILE_SIZE = 50000000
     # chunk size that should be used with requests
